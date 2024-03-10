@@ -1,25 +1,57 @@
-# Workit landing page
+# Frontend Mentor - Workit landing page solution
 
-Live site here -> https://workitlanding.netlify.app/
+This is a solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### A Frontend Mentor Challenge
+## Table of contents
 
-https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-![Example Image](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/dipoauyeugmgrbbc3g8f.jpg)
+## Overview
 
-This HTML and CSS-only landing page will be an excellent test of your UI and responsive skills. There’s also some fun to be had creating the curved section borders!
+### The challenge
 
-## Brief
+Users should be able to:
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-Your users should be able to:
+### Links
 
-View the optimal layout depending on their device's screen size
-See hover states for interactive elements
-Download the project and go through the README.md file. This will provide further details about the project and help you get set up.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://workitlanding.netlify.app/)
 
-Want some support on the challenge? Join our community and ask questions in the help channel.
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+### Continued development
+
+### Useful resources
+
+- [Eric Meyers CSS Reset](https://meyerweb.com/eric/tools/css/reset/) - Eric Meyer's CSS reset eliminates cross-browser inconsistencies and streamlines the styling process, providing a uniform base across all browsers. This approach improves code maintainability and layout predictability.
+
+## Author
+
+- Website - [Steve Xero](https://www.stevexero.com)
+- Frontend Mentor - [@stevexero](https://www.frontendmentor.io/profile/stevexero)
+- X - [@steve_xero](https://www.twitter.com/steve_xero)
