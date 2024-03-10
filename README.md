@@ -4,6 +4,8 @@
 
 https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu
 
+![Example Image](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/dipoauyeugmgrbbc3g8f.jpg)
+
 This HTML and CSS-only landing page will be an excellent test of your UI and responsive skills. There’s also some fun to be had creating the curved section borders!
 
 ## Brief
