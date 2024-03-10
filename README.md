@@ -1,5 +1,7 @@
 # Workit landing page
 
+Live site here -> https://workitlanding.netlify.app/
+
 ### A Frontend Mentor Challenge
 
 https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu
