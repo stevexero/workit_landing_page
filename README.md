@@ -44,6 +44,8 @@ Users should be able to:
 
 ### What I learned
 
+I learned about the importance of a proper css reset as opposed to using the universal selector \*
+
 ### Continued development
 
 ### Useful resources
