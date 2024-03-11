@@ -1,0 +1,8 @@
+:root {
+  --primary: #24053e;
+  --neutral-dark: #584d62;
+  --neutral-light: #fcf8ff;
+  --accent: #44ffa1;
+  --text-dark: var(var(--primary));
+  --text-light: #ffffff;
+}
