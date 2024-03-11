@@ -1,12 +1,13 @@
 @font-face {
   font-family: 'Fraunces';
   src: url('/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf')
-    format('ttf');
+    format('truetype');
 }
 
 @font-face {
   font-family: 'Manrope';
-  src: url('/assets/fonts/manrope/static/Manrope-Regular.ttf') format('ttf');
+  src: url('/assets/fonts/manrope/Manrope-VariableFont_wght.ttf')
+    format('truetype');
 }
 
 :root {
@@ -14,7 +15,7 @@
   --neutral-dark: #584d62;
   --neutral-light: #fcf8ff;
   --accent: #44ffa1;
-  --text-dark: var(var(--primary));
+  --text-dark: var(--primary);
   --text-light: #ffffff;
 
   --font-heading: 'Fraunces', sans-serif;
@@ -25,8 +26,74 @@
   --font-size-heading-small: 32px;
   --font-size-body: 18px;
 
-  --font-spacing-heading-large: 80px;
-  --font-spacing-heading-medium: 64px;
-  --font-spacing-heading-small: 40px;
-  --font-spacing-body: 32px;
+  --font-line-height-heading-large: 80px;
+  --font-line-height-heading-medium: 64px;
+  --font-line-height-heading-small: 40px;
+  --font-line-height-body: 32px;
+
+  --anim-trans: 0.2s ease-in-out;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1110px;
+}
+
+.heading_large {
+  color: var(--text-light);
+  font-family: var(--font-heading);
+  font-size: var(--font-size-heading-large);
+  line-height: var(--font-line-height-heading-large);
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--text-light);
+  font-family: var(--font-body);
+  font-weight: bold;
+  line-height: var(--font-line-height-body);
+  letter-spacing: -0.18px;
+  position: relative;
+  transition: var(--anim-trans);
+}
+
+.nav_link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--accent);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+.nav_link:hover {
+  color: var(--accent);
+}
+
+.button {
+  background-color: var(--accent);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: bold;
+  line-height: var(--font-line-height-body);
+  color: var(--text-dark);
+  border: 2px solid var(--accent);
+  transition: var(--anim-trans);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--text-light);
 }
