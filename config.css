@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Fraunces';
+  src: url('/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf')
+    format('ttf');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/assets/fonts/manrope/static/Manrope-Regular.ttf') format('ttf');
+}
+
 :root {
   --primary: #24053e;
   --neutral-dark: #584d62;
@@ -5,4 +16,17 @@
   --accent: #44ffa1;
   --text-dark: var(var(--primary));
   --text-light: #ffffff;
+
+  --font-heading: 'Fraunces', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+
+  --font-size-heading-large: 80px;
+  --font-size-heading-medium: 56px;
+  --font-size-heading-small: 32px;
+  --font-size-body: 18px;
+
+  --font-spacing-heading-large: 80px;
+  --font-spacing-heading-medium: 64px;
+  --font-spacing-heading-small: 40px;
+  --font-spacing-body: 32px;
 }
