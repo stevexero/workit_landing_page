@@ -1,3 +1,7 @@
+/* ================ 
+   Hero Section Styles 
+   ================ */
+
 header {
   width: 100vw;
   height: 730px;
@@ -88,6 +92,10 @@ header button {
   max-width: 767px;
 }
 
+/* ================ 
+   Overview Section Styles 
+   ================ */
+
 #overview {
   width: 100%;
   margin-top: -98px;
@@ -157,6 +165,10 @@ header button {
   margin-top: 28px;
 }
 
+/* ================ 
+   Call To Action Section Styles 
+   ================ */
+
 #call_to_action {
   margin-top: 110px;
   background-color: var(--background-white);
@@ -210,6 +222,10 @@ header button {
   right: 73px;
 }
 
+/* ================ 
+   Footer Section Styles 
+   ================ */
+
 footer {
   width: 100vw;
   margin-top: 116px;
@@ -243,7 +259,15 @@ footer nav ul li a:hover {
   filter: brightness(50%);
 }
 
+/* ================ 
+   Tablet Styles 
+   ================ */
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
+  /* ================ 
+   Hero Section Styles 
+   ================ */
+
   header {
     height: 540.24px;
     clip-path: ellipse(140% 100% at 50% 0%);
@@ -279,6 +303,10 @@ footer nav ul li a:hover {
   header button {
     padding: 9px 22px 10px 21px;
   }
+
+  /* ================ 
+   Overview Section Styles 
+   ================ */
 
   #overview {
     clip-path: ellipse(180% 100% at 50% 0%);
@@ -329,10 +357,81 @@ footer nav ul li a:hover {
     text-align: left;
     margin-top: 15px;
   }
+
+  /* ================ 
+   Call To Action Section Styles 
+   ================ */
+
+  #call_to_action {
+    margin-top: 100px;
+  }
+
+  #call_to_action_container {
+    width: 689px;
+    height: 526px;
+  }
+
+  #founder_headshot {
+    width: 281px;
+    height: 281px;
+  }
+
+  #call_to_action_info_container {
+    width: 402px;
+    padding: 48px 56px 56px 56px;
+    bottom: 1px;
+  }
+
+  #call_to_action_info_container p {
+    font-weight: 300;
+  }
+
+  #call_to_action_info_container p,
+  #call_to_action_info_container button {
+    margin-top: 24px;
+  }
+
+  #call_to_action_info_container button {
+    padding: 9px 21px 10px 21px;
+    letter-spacing: 0;
+  }
+
+  #spiral_3 {
+    bottom: -106px;
+    right: 12px;
+  }
+
+  /* ================ 
+   Footer Section Styles 
+   ================ */
+
+  footer {
+    margin-top: 80px;
+  }
 }
 
+/* ================ 
+   Mobile Styles 
+   ================ */
+
 @media screen and (max-width: 375px) {
+  /* ================ 
+   Hero Section Styles 
+   ================ */
+
   #nav_container {
     padding: 0 16px;
   }
+
+  /* ================ 
+   Overview Section Styles 
+   ================ */
+
+  /* ================ 
+   Call To Action Section Styles 
+   ================ */
+
+  /* ================ 
+   Footer Section Styles 
+   ================ */
 }
