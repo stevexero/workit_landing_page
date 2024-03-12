@@ -6,6 +6,8 @@ header {
   flex-direction: column;
   align-items: center;
   clip-path: ellipse(100% 100% at 50% 0%);
+  position: relative;
+  z-index: 3;
 }
 
 nav {
@@ -57,20 +59,76 @@ header div h1 span::after {
 header button {
   width: 161px;
   height: 61px;
-  margin-top: 26px;
+  margin-top: 36px;
+}
+
+#hero_img {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 460px;
+  z-index: 3;
+}
+
+#hero_img img {
+  max-width: 767px;
 }
 
 #overview {
   width: 100%;
-  margin-top: -270px;
+  margin-top: -98px;
   background-color: var(--neutral-light);
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#hero_img {
-  max-width: 767px;
+  clip-path: ellipse(100% 100% at 50% 0%);
   position: relative;
   z-index: 2;
+}
+
+.card_container {
+  width: 1114px;
+  margin-top: 353px;
+  margin-bottom: 171px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card {
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_number {
+  width: 56px;
+  height: 56px;
+  font-family: var(--font-heading);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--neutral-dark);
+  border-radius: 50%;
+}
+
+.card h2 {
+  margin-top: 56px;
+}
+
+.card p {
+  margin-top: 28px;
+}
+
+#call_to_action {
+  height: 500px;
+  background-color: var(--background-white);
+  position: relative;
+  z-index: 1;
 }
