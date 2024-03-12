@@ -20,7 +20,9 @@ nav {
 }
 
 #nav_container {
-  width: 1110px;
+  max-width: 1190px;
+  padding: 0 40px;
+  box-sizing: border-box;
 }
 
 header div {
@@ -135,13 +137,10 @@ header button {
 
 .card h2 {
   margin-top: 56px;
-  letter-spacing: 0.18px;
 }
 
 .card p {
   margin-top: 28px;
-  font-weight: 300;
-  letter-spacing: 0.18px;
 }
 
 #call_to_action {
@@ -178,7 +177,6 @@ header button {
 }
 
 #call_to_action_info_container p {
-  font-weight: 300;
   letter-spacing: 0.14px;
 }
 
@@ -229,4 +227,48 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
   filter: brightness(50%);
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  header {
+    height: 540.24px;
+    clip-path: ellipse(140% 100% at 50% 0%);
+  }
+
+  nav {
+    margin-top: 32px;
+  }
+
+  header div h1 span::after {
+    width: 84%;
+    margin-left: 4px;
+  }
+
+  #hero_img_left {
+    top: -66px;
+    left: -226px;
+  }
+
+  #hero_img_right {
+    top: 109px;
+    right: -94px;
+  }
+
+  #hero_img {
+    top: 390px;
+  }
+
+  #hero_img img {
+    max-width: 514px;
+  }
+
+  header button {
+    padding: 9px 22px 10px 21px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #nav_container {
+    padding: 0 16px;
+  }
 }
