@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Fraunces';
-  src: url('/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf')
+  src: url('/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf')
     format('truetype');
 }
 
@@ -27,6 +27,9 @@
   --font-size-heading-small: 32px;
   --font-size-body: 18px;
 
+  --font-weight-heading-large: 600;
+  --font-weight-heading-small: 500;
+
   --font-line-height-heading-large: 80px;
   --font-line-height-heading-medium: 64px;
   --font-line-height-heading-small: 40px;
@@ -48,7 +51,9 @@ body {
 .heading_large {
   color: var(--text-light);
   font-family: var(--font-heading);
+  font-weight: var(--font-weight-heading-large);
   font-size: var(--font-size-heading-large);
+  letter-spacing: -0.18px;
   line-height: var(--font-line-height-heading-large);
 }
 
@@ -56,6 +61,8 @@ body {
   color: var(--text-light);
   font-family: var(--font-heading);
   font-size: var(--font-size-heading-medium);
+  font-weight: 600;
+  letter-spacing: 0;
   line-height: var(--font-line-height-heading-medium);
 }
 
@@ -63,6 +70,7 @@ body {
   color: var(--text-dark);
   font-family: var(--font-heading);
   font-size: var(--font-size-heading-small);
+  font-weight: var(--font-weight-heading-small);
   line-height: var(--font-line-height-heading-small);
 }
 
@@ -86,6 +94,7 @@ body {
   color: var(--text-light);
   font-family: var(--font-body);
   font-weight: bold;
+  font-size: var(--font-size-body);
   line-height: var(--font-line-height-body);
   letter-spacing: -0.18px;
   position: relative;
@@ -100,7 +109,7 @@ body {
   background-color: var(--accent);
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: -3px;
 }
 
 .nav_link:hover {
@@ -111,7 +120,7 @@ body {
   background-color: var(--accent);
   font-family: var(--font-body);
   font-size: var(--font-size-body);
-  font-weight: bold;
+  font-weight: 600;
   line-height: var(--font-line-height-body);
   color: var(--text-dark);
   border: 2px solid var(--accent);

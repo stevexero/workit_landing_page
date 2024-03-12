@@ -5,7 +5,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  clip-path: ellipse(100% 100% at 50% 0%);
+  clip-path: ellipse(120% 100% at 50% 0%);
   position: relative;
   z-index: 3;
 }
@@ -33,6 +33,11 @@ header div {
   position: relative;
 }
 
+header div h1 {
+  margin-top: -15px;
+  letter-spacing: 1px;
+}
+
 header div h1 span {
   position: relative;
 }
@@ -40,23 +45,24 @@ header div h1 span {
 header div h1 span::after {
   content: '';
   display: block;
-  width: 100%;
+  width: 92%;
   height: 3px;
   background-color: var(--accent);
   position: absolute;
-  left: 0;
-  bottom: 8px;
+  left: 50%;
+  bottom: 6px;
+  transform: translateX(-50%);
 }
 
 #hero_img_left {
   position: absolute;
-  top: -28px;
+  top: -44px;
   left: -140px;
 }
 
 #hero_img_right {
   position: absolute;
-  top: 160px;
+  top: 154px;
   right: -50px;
 }
 
@@ -67,11 +73,12 @@ header button {
 
 #hero_img {
   width: 100vw;
+  margin-left: 23px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 460px;
+  top: 455px;
   z-index: 3;
 }
 
@@ -86,7 +93,7 @@ header button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  clip-path: ellipse(100% 100% at 50% 0%);
+  clip-path: ellipse(127% 100% at 50% 0%);
   position: relative;
   z-index: 2;
 }
@@ -118,6 +125,7 @@ header button {
   height: 56px;
   font-family: var(--font-heading);
   font-size: 24px;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,10 +135,13 @@ header button {
 
 .card h2 {
   margin-top: 56px;
+  letter-spacing: 0.18px;
 }
 
 .card p {
   margin-top: 28px;
+  font-weight: 300;
+  letter-spacing: 0.18px;
 }
 
 #call_to_action {
@@ -162,8 +173,13 @@ header button {
   padding: 64px;
   background-color: var(--primary);
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   right: 0;
+}
+
+#call_to_action_info_container p {
+  font-weight: 300;
+  letter-spacing: 0.14px;
 }
 
 #call_to_action_info_container p,
@@ -178,13 +194,13 @@ header button {
 #spiral_3 {
   width: 220px;
   position: absolute;
-  bottom: -70px;
-  right: 80px;
+  bottom: -61px;
+  right: 73px;
 }
 
 footer {
   width: 100vw;
-  margin-top: 120px;
+  margin-top: 116px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -194,7 +210,7 @@ footer {
 
 footer nav {
   width: 100%;
-  margin-top: 58px;
+  margin-top: 56px;
   display: flex;
   justify-content: center;
 }
@@ -203,7 +219,7 @@ footer nav ul {
   width: 116px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
