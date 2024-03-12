@@ -19,6 +19,10 @@ nav {
   justify-content: space-between;
 }
 
+#nav_container {
+  width: 1110px;
+}
+
 header div {
   width: 100%;
   margin-top: 18px;
@@ -57,8 +61,7 @@ header div h1 span::after {
 }
 
 header button {
-  width: 161px;
-  height: 61px;
+  padding: 11px 30px 14px 29px;
   margin-top: 36px;
 }
 
@@ -86,6 +89,10 @@ header button {
   clip-path: ellipse(100% 100% at 50% 0%);
   position: relative;
   z-index: 2;
+}
+
+#overview_container {
+  width: 1114px;
 }
 
 .card_container {
@@ -127,8 +134,54 @@ header button {
 }
 
 #call_to_action {
-  height: 500px;
+  margin-top: 110px;
   background-color: var(--background-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 1;
+}
+
+#call_to_action_container {
+  width: 1112px;
+  height: 590px;
+  position: relative;
+}
+
+#founder_headshot {
+  width: 477px;
+  height: 477px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#call_to_action_info_container {
+  width: 602px;
+  padding: 64px;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#call_to_action_info_container p,
+#call_to_action_info_container button {
+  margin-top: 32px;
+}
+
+#call_to_action_info_container button {
+  padding: 11px 23px 14px 23px;
+}
+
+#spiral_3 {
+  width: 220px;
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+}
+
+footer {
+  margin-top: 120px;
 }
