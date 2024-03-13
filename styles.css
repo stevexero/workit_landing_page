@@ -419,13 +419,105 @@ footer nav ul li a:hover {
    Hero Section Styles 
    ================ */
 
+  header {
+    height: 482px;
+    clip-path: ellipse(200% 100% at 50% 0%);
+  }
+
   #nav_container {
     padding: 0 16px;
+  }
+
+  header div {
+    margin-top: 24px;
+  }
+
+  header div h1 {
+    max-width: 343px;
+  }
+
+  header div h1 span::after {
+    width: 82%;
+    left: 44%;
+    bottom: 3px;
+    transform: translateX(-65%);
+  }
+
+  #hero_img_left {
+    display: none;
+  }
+
+  #hero_img_right {
+    display: none;
+  }
+
+  header button {
+    margin-top: 42px;
+  }
+
+  #hero_img {
+    margin-left: 10px;
+  }
+
+  #hero_img img {
+    max-width: 320px;
   }
 
   /* ================ 
    Overview Section Styles 
    ================ */
+
+  #overview {
+    clip-path: ellipse(300% 100% at 50% 0%);
+  }
+
+  #overview_container {
+    max-width: 343px;
+  }
+
+  .card_container {
+    width: 100%;
+    margin-top: 219px;
+    margin-bottom: 71px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 336px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card:nth-child(2) {
+    margin: 0;
+  }
+
+  .card_number {
+    width: 46px;
+    height: 44px;
+    margin-top: 40px;
+    margin-left: 0;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .card_inner_container {
+    width: 100%;
+    margin-left: 0;
+
+    align-items: center;
+  }
+
+  .card_inner_container h2 {
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .card_inner_container p {
+    margin-top: 16px;
+    text-align: center;
+  }
 
   /* ================ 
    Call To Action Section Styles 
