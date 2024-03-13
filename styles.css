@@ -523,7 +523,74 @@ footer nav ul li a:hover {
    Call To Action Section Styles 
    ================ */
 
+  #call_to_action {
+    /* margin-top: 110px; */
+    /* background-color: var(--background-white); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* z-index: 1; */
+  }
+
+  #call_to_action_container {
+    width: 343px;
+    /* height: 590px; */
+    /* position: relative; */
+  }
+
+  #founder_headshot {
+    width: 281px;
+    height: 281px;
+    /* position: absolute; */
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #call_to_action_info_container {
+    /* width: 230px; */
+    width: 280px;
+    padding: 33px 31px 32px 31px;
+    /* padding: 33px 29px 32px 29px; */
+    /* background-color: var(--primary); */
+    /* position: absolute; */
+    /* bottom: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  #call_to_action_info_container h3 {
+    text-align: center;
+  }
+
+  #call_to_action_info_container p {
+    max-width: 290px;
+    margin-top: 16px;
+    font-weight: 200;
+    letter-spacing: 0.14px;
+    text-align: center;
+  }
+
+  #call_to_action_info_container p,
+  #call_to_action_info_container button {
+    /* margin-top: 32px; */
+  }
+
+  #call_to_action_info_container button {
+    /* padding: 11px 23px 14px 23px; */
+  }
+
+  #spiral_3 {
+    display: none;
+  }
+
   /* ================ 
    Footer Section Styles 
    ================ */
+
+  /* 74px */
 }

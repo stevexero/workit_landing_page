@@ -185,7 +185,7 @@ body {
 @media screen and (max-width: 375px) {
   :root {
     --font-size-heading-large: 50px;
-    /* --font-size-heading-medium: 48px; */
+    --font-size-heading-medium: 32px;
     --font-size-heading-small: 28px;
     --font-size-body: 16px;
     --font-size-button: 16px;
@@ -199,14 +199,14 @@ body {
     /* --font-weight-nav-link: 500; */
 
     --font-line-height-heading-large: 50px;
-    /* --font-line-height-heading-medium: 56px; */
+    --font-line-height-heading-medium: 48px;
     --font-line-height-heading-small: 36px;
     --font-line-height-body: 28px;
     --font-line-height-button: 32px;
     --font-line-height-nav-link: 32px;
 
     --font-letter-spacing-heading-large: 0;
-    /* --font-letter-spacing-heading-medium: 0; */
+    --font-letter-spacing-heading-medium: 0;
     --font-letter-spacing-heading-small: 0;
     --font-letter-spacing-body: 0;
     --font-letter-spacing-button: -0.16px;
