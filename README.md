@@ -27,9 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Landing Page](assets/images/desktop.png)
-![Tablet Landing Page](assets/images/tablet.png)
-![Mobile Landing Page](assets/images/mobile.png)
+![Desktop Landing Page](assets/images/desktop.png)![Tablet Landing Page](assets/images/tablet.png)![Mobile Landing Page](assets/images/mobile.png)
 
 ### Links
 
