@@ -264,7 +264,8 @@ footer nav ul li a:hover {
    Tablet Styles 
    ================ */
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 566px) and (max-width: 768px) {
+  /* @media screen and (min-width: 375px) and (max-width: 768px) { */
   /* ================ 
    Hero Section Styles 
    ================ */
@@ -419,7 +420,8 @@ footer nav ul li a:hover {
    Mobile Styles 
    ================ */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) { */
+@media screen and (max-width: 565px) {
   /* ================ 
    Hero Section Styles 
    ================ */

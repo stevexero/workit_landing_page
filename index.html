@@ -17,7 +17,7 @@
   <body>
     <!-- Hero Section -->
     <header>
-      <nav id="nav_container">
+      <nav id="nav_container" aria-label="Main navigation">
         <img src="/assets/images/logo-light.svg" alt="Workit Logo" />
         <a href="#" class="nav_link">Apply for access</a>
       </nav>
@@ -35,76 +35,88 @@
           src="/assets/images/bg-pattern-2.svg"
           alt="spiral pattern"
         />
-        <button class="button">Learn more</button>
+        <button
+          class="button"
+          aria-label="Learn more about our data analytics services"
+        >
+          Learn more
+        </button>
       </div>
     </header>
     <div id="hero_img">
       <img src="/assets/images/image-hero.webp" alt="Orthogonal Phone" />
     </div>
-    <!-- Overview Section -->
-    <section id="overview">
-      <div id="overview_container">
-        <div class="card_container">
-          <div class="card">
-            <div class="card_number">1</div>
-            <div class="card_inner_container">
-              <h2 class="heading_small text_dark">Actionable insights</h2>
-              <p class="body_text text_dark">
-                Optimize your products, improve customer satisfaction and stay
-                ahead of the competition with our product data analytics.
-              </p>
+    <main>
+      <!-- Overview Section -->
+      <section id="overview">
+        <div id="overview_container">
+          <div class="card_container">
+            <div class="card">
+              <div class="card_number">1</div>
+              <div class="card_inner_container">
+                <h2 class="heading_small text_dark">Actionable insights</h2>
+                <p class="body_text text_dark">
+                  Optimize your products, improve customer satisfaction and stay
+                  ahead of the competition with our product data analytics.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card_number">2</div>
-            <div class="card_inner_container">
-              <h2 class="heading_small text_dark">Data-driven decisions</h2>
-              <p class="body_text text_dark">
-                Make data-driven decisions with our product data analytics. Our
-                AI-generated reports help you unlock insights hidden in your
-                product data.
-              </p>
+            <div class="card">
+              <div class="card_number">2</div>
+              <div class="card_inner_container">
+                <h2 class="heading_small text_dark">Data-driven decisions</h2>
+                <p class="body_text text_dark">
+                  Make data-driven decisions with our product data analytics.
+                  Our AI-generated reports help you unlock insights hidden in
+                  your product data.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card_number">3</div>
-            <div class="card_inner_container">
-              <h2 class="heading_small text_dark">Always affordable</h2>
-              <p class="body_text text_dark">
-                Always affordable pricing that scales with your business. Get
-                top-quality product data analytics services without hidden costs
-                or unexpected fees.
-              </p>
+            <div class="card">
+              <div class="card_number">3</div>
+              <div class="card_inner_container">
+                <h2 class="heading_small text_dark">Always affordable</h2>
+                <p class="body_text text_dark">
+                  Always affordable pricing that scales with your business. Get
+                  top-quality product data analytics services without hidden
+                  costs or unexpected fees.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Call To Action Section -->
-    <section id="call_to_action">
-      <div id="call_to_action_container">
-        <img
-          id="founder_headshot"
-          src="/assets/images/image-founder.webp"
-          alt="Founder headshot"
-        />
-        <div id="call_to_action_info_container">
-          <h3 class="heading_medium text_light">Be the first to test</h3>
-          <p class="body_text text_light">
-            Hi, I'm Louis Graham, the founder of the company. Book a demo call
-            with me to become a beta tester for our app and kickstart your
-            company. Apply for access below and I’ll be in touch to schedule a
-            call.
-          </p>
-          <button class="button">Apply for access</button>
+      </section>
+      <!-- Call To Action Section -->
+      <section id="call_to_action">
+        <div id="call_to_action_container">
           <img
-            id="spiral_3"
-            src="/assets/images/bg-pattern-3.svg"
-            alt="spiral pattern"
+            id="founder_headshot"
+            src="/assets/images/image-founder.webp"
+            alt="Founder headshot"
           />
+          <div id="call_to_action_info_container">
+            <h3 class="heading_medium text_light">Be the first to test</h3>
+            <p class="body_text text_light">
+              Hi, I'm Louis Graham, the founder of the company. Book a demo call
+              with me to become a beta tester for our app and kickstart your
+              company. Apply for access below and I’ll be in touch to schedule a
+              call.
+            </p>
+            <button
+              class="button"
+              aria-label="Apply now for early access to Workit"
+            >
+              Apply for access
+            </button>
+            <img
+              id="spiral_3"
+              src="/assets/images/bg-pattern-3.svg"
+              alt="spiral pattern"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <!-- Footer -->
     <footer>
       <img src="/assets/images/logo-dark.svg" alt="Logo dark" />

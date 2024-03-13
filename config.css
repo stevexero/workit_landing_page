@@ -150,7 +150,8 @@ body {
   color: var(--text-light);
 }
 
-@media screen and (min-width: 376px) and (max-width: 768px) {
+/* @media screen and (min-width: 376px) and (max-width: 768px) { */
+@media screen and (min-width: 566px) and (max-width: 768px) {
   :root {
     --font-size-heading-large: 60px;
     --font-size-heading-medium: 48px;
@@ -182,7 +183,8 @@ body {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 565px) {
+  /* @media screen and (max-width: 375px) { */
   :root {
     --font-size-heading-large: 50px;
     --font-size-heading-medium: 32px;
