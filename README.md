@@ -27,11 +27,19 @@ Users should be able to:
 
 ### Screenshot
 
-<p float="left">
-  <img src="assets/images/desktop.png" width="700" />
-  <img src="assets/images/tablet.png" width="400" />
-  <img src="assets/images/mobile.png" width="200" />
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/images/desktop.png" width="700" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/images/tablet.png" width="400" />
+      <img src="assets/images/mobile.png" width="200" />
+    </td>
+  </tr>
+</table>
 
 ### Links
 
