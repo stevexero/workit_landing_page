@@ -265,7 +265,6 @@ footer nav ul li a:hover {
    ================ */
 
 @media screen and (min-width: 566px) and (max-width: 768px) {
-  /* @media screen and (min-width: 375px) and (max-width: 768px) { */
   /* ================ 
    Hero Section Styles 
    ================ */
@@ -420,7 +419,6 @@ footer nav ul li a:hover {
    Mobile Styles 
    ================ */
 
-/* @media screen and (max-width: 375px) { */
 @media screen and (max-width: 565px) {
   /* ================ 
    Hero Section Styles 
@@ -429,6 +427,10 @@ footer nav ul li a:hover {
   header {
     height: 482px;
     clip-path: ellipse(200% 100% at 50% 0%);
+  }
+
+  nav {
+    margin: 32px;
   }
 
   #nav_container {
@@ -441,6 +443,7 @@ footer nav ul li a:hover {
 
   header div h1 {
     max-width: 343px;
+    margin-top: 16px;
   }
 
   header div h1 span::after {
@@ -460,10 +463,12 @@ footer nav ul li a:hover {
 
   header button {
     margin-top: 42px;
+    padding: 9px 22px 10px 21px;
   }
 
   #hero_img {
     margin-left: 10px;
+    top: 390px;
   }
 
   #hero_img img {
@@ -537,7 +542,7 @@ footer nav ul li a:hover {
   #founder_headshot {
     width: 281px;
     height: 281px;
-    top: -80px;
+    top: -18px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -556,12 +561,22 @@ footer nav ul li a:hover {
     text-align: center;
   }
 
+  #call_to_action_info_container p,
+  #call_to_action_info_container button {
+    margin-top: 24px;
+  }
+
   #call_to_action_info_container p {
     max-width: 290px;
     margin-top: 16px;
     font-weight: 200;
     letter-spacing: 0.14px;
     text-align: center;
+  }
+
+  #call_to_action_info_container button {
+    padding: 9px 21px 10px 21px;
+    letter-spacing: 0;
   }
 
   #spiral_3 {
