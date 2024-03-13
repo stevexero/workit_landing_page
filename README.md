@@ -27,6 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
+![Desktop Landing Page](assets/images/desktop.png)
+![Tablet Landing Page](assets/images/tablet.png)
+![Mobile Landing Page](assets/images/mobile.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -44,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned about the importance of a proper css reset as opposed to using the universal selector \*
+- I learned about the importance of a proper css reset as opposed to using the universal selector. In this project I used Eric Meyer's CSS Reset (see below).
 
 ### Continued development
 
