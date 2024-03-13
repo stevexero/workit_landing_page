@@ -27,6 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
+<p float="left">
+  <img src="assets/images/desktop.png" width="100" />
+  <img src="assets/images/tablet.png" width="100" />
+  <img src="assets/images/mobile.png" width="100" />
+</p>
+
 ![Desktop Landing Page](assets/images/desktop.png)![Tablet Landing Page](assets/images/tablet.png)![Mobile Landing Page](assets/images/mobile.png)
 
 ### Links
