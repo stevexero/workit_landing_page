@@ -40,6 +40,7 @@ header div {
 }
 
 header div h1 {
+  max-width: 635px;
   margin-top: -15px;
   letter-spacing: 1px;
 }
@@ -275,6 +276,10 @@ footer nav ul li a:hover {
 
   nav {
     margin-top: 32px;
+  }
+
+  header div h1 {
+    max-width: 500px;
   }
 
   header div h1 span::after {
