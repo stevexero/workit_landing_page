@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://workitlanding.netlify.app/](https://workitlanding.netlify.app/)
+- Solution URL: [FEM Solution](https://your-solution-url.com)
+- Live Site URL: [Workit Landing Page](https://workitlanding.netlify.app/)
 
 ## My process
 
